@@ -1,17 +1,25 @@
 package blumek.sb;
 
 import blumek.sb.models.Review;
-import blumek.sb.scrapers.CeneoScraper;
-import blumek.sb.scrapers.ReviewsManager;
-import blumek.sb.scrapers.ReviewsScraper;
+import blumek.sb.scrapers.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        ReviewsManager reviewsManager = new ReviewsManager();
-        ReviewsScraper ceneoScraper = new CeneoScraper();
-        List<Review> reviews = reviewsManager.scrapeReviews(ceneoScraper,"/50851290/opinie-1");
+        PageScrapeManager pageScrapeManager = new PageScrapeManager();
+        PageScraper pageScraper = new CeneoPageScraper();
+        List<String> links = pageScrapeManager.scrapeAllPages(pageScraper, "/Telefony_komorkowe");
+        ReviewsScrapeManager scrapeManager = new ReviewsScrapeManager();
+        ReviewsScraper ceneoScraper = new CeneoReviewsScraper();
+        List<Review> reviews = new ArrayList<Review>();
+
+        for (String link : links) {
+            List<Review> subpageReviews = scrapeManager.scrapeAllPages(ceneoScraper, link + "/opinie-1");
+            reviews.addAll(subpageReviews);
+        }
+
         for (Review review : reviews) {
             System.out.println(review);
         }

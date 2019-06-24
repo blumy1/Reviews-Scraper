@@ -5,6 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 public interface Scraper {
+    String getBaseUrl();
     Connection getConnection(String urlComplement);
     Document getDocument(Connection connection);
     Elements getElements(Document document);

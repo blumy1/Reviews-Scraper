@@ -14,11 +14,16 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class CeneoScraper implements ReviewsScraper{
+public class CeneoReviewsScraper implements ReviewsScraper{
     private final String BASE_URL = "https://www.ceneo.pl";
+    private String next;
+
+    public String getBaseUrl() {
+        return BASE_URL;
+    }
 
     public Connection getConnection(String urlComplement) {
-        return Jsoup.connect(BASE_URL + urlComplement);
+        return Jsoup.connect(getBaseUrl() + urlComplement);
     }
 
     public Document getDocument(Connection connection) {
@@ -33,6 +38,8 @@ public class CeneoScraper implements ReviewsScraper{
 
     public Elements getElements(Document document) {
         if (document == null) return null;
+        checkForNext(document);
+
         Elements elementsContainer = document.select("ol.product-reviews.js_product-reviews.js_reviews-hook.js_product-reviews-container");
         return elementsContainer.select("li.review-box.js_product-review div.show-review-content");
     }
@@ -65,12 +72,23 @@ public class CeneoScraper implements ReviewsScraper{
         return matcher.matches() ? matcher.group(1) : null;
     }
 
-    public boolean hasNext(Document document) {
-        Element element = document.selectFirst("li.page-arrow.arrow-next a");
-        return element != null;
+    public boolean hasNext() {
+        return next != null;
     }
 
-    public String getNext(Document document) {
-        return  document.selectFirst("li.page-arrow.arrow-next a").attr("href");
+    public String getNext() {
+        return next;
+    }
+
+    public void setNext(String next) {
+        this.next = next;
+    }
+
+    public void checkForNext(Document document) {
+        Element nextElement = document.selectFirst("li.page-arrow.arrow-next a");
+        if (nextElement != null)
+            setNext(nextElement.attr("href"));
+        else
+            setNext(null);
     }
 }
