@@ -22,7 +22,6 @@ public class ReviewsScrapeManager {
                 complement = reviewsScraper.getNext();
             }
         } while (hasNext);
-        System.out.println(complement);
         return reviews;
     }
 
