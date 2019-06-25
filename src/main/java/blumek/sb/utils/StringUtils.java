@@ -17,7 +17,7 @@ public class StringUtils {
         }
     }
 
-    public static String replaceComamsWithDots(String expression) {
+    public static String replaceCommasWithDots(String expression) {
         return expression.replaceAll(",", ".");
     }
 
@@ -54,17 +54,6 @@ public class StringUtils {
     public static int countStars(String text) {
         int counter = 0;
         Pattern pattern = Pattern.compile("\\*");
-        Matcher matcher = pattern.matcher(text);
-
-        while (matcher.find())
-            counter++;
-
-        return counter;
-    }
-
-    public static int countCapitalized(String text) {
-        int counter = 0;
-        Pattern pattern = Pattern.compile("[A-Z]");
         Matcher matcher = pattern.matcher(text);
 
         while (matcher.find())

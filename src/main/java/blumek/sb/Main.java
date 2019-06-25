@@ -60,7 +60,7 @@ public class Main {
         //Save data for testing
         FileManager.appendReviewsToFile(testReviews, "test.txt");
 
-        System.out.println(reviews.size());
+        System.out.println("Reviews scraped: " + reviews.size());
 
     }
 }

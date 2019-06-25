@@ -18,12 +18,8 @@ public class CeneoReviewsScraper implements ReviewsScraper{
     private final String BASE_URL = "https://www.ceneo.pl";
     private String next;
 
-    public String getBaseUrl() {
-        return BASE_URL;
-    }
-
     public Connection getConnection(String urlComplement) {
-        return Jsoup.connect(getBaseUrl() + urlComplement);
+        return Jsoup.connect(BASE_URL + urlComplement);
     }
 
     public Document getDocument(Connection connection) {
@@ -53,7 +49,7 @@ public class CeneoReviewsScraper implements ReviewsScraper{
             rating = extractRating(rating);
             if (rating == null)
                 continue;
-            rating = StringUtils.replaceComamsWithDots(rating);
+            rating = StringUtils.replaceCommasWithDots(rating);
 
             if (!StringUtils.isNumeric(rating))
                 continue;

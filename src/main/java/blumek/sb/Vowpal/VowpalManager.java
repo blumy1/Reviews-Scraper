@@ -23,16 +23,11 @@ public class VowpalManager {
                 .append(starsAmount)
                 .append(" ");
 
-        int capitalizedAmount = StringUtils.countCapitalized(text);
-        stringBuilder.append("caps:")
-                .append(capitalizedAmount)
-                .append(" ");
-
         for (String characteristic: characteristics) {
             int count = StringUtils.countOccurrences(text, characteristic);
             stringBuilder
                     .append("n_")
-                    .append(characteristic)
+                    .append(characteristic.replaceAll(" ", "_"))
                     .append(":")
                     .append(count)
                     .append(" ");

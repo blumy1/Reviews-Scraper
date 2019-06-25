@@ -14,10 +14,6 @@ public class CeneoPageScraper implements PageScraper {
     private final String BASE_URL = "https://www.ceneo.pl";
     private String next;
 
-    public String getBaseUrl() {
-        return BASE_URL;
-    }
-
     public Connection getConnection(String urlComplement) {
         return Jsoup.connect(BASE_URL + urlComplement);
     }

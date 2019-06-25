@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5702aa0-2dd8-4fee-8dad-8396f3701955" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/blumek/sb/Vowpal/VowpalManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/blumek/sb/utils/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Blumek.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Blumek.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Characteristics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Characteristics.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/blumek/sb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blumek/sb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsScrapeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsScrapeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blumek/sb/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blumek/sb/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blumek/sb/Vowpal/VowpalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blumek/sb/Vowpal/VowpalManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blumek/sb/models/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blumek/sb/models/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoReviewsScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoReviewsScraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Scraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Scraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/blumek/sb/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/blumek/sb/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/blumek/sb/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/blumek/sb/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/blumek/sb/Vowpal/VowpalManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/blumek/sb/Vowpal/VowpalManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/blumek/sb/models/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/blumek/sb/models/Review.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,23 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Scraper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#593#601#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/utils/StringUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,14 +40,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoPageScraper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoReviewsScraper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="180">
+              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2446#2447#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsScraper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +77,21 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gors</find>
+      <find>za</find>
+      <find>bra</find>
+      <find>gorz</find>
+      <find>dzia</find>
+      <find>prze</find>
+      <find>wad</find>
+      <find>kiep</find>
+      <find>pops</find>
+      <find>roz</find>
+      <find>probl</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -82,7 +101,6 @@
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/utils/WebScraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/utils/Scraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/utils/CeneoScraper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/blumek/sb/models/Review.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewScraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/WebScraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsManager.java" />
@@ -90,19 +108,20 @@
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoScraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/PageScraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ScrapeManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoReviewsScraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Pagination.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsScraper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Scraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoPageScraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/PageScrapeManager.java" />
-        <option value="$PROJECT_DIR$/Characteristics.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/blumek/sb/Vowpal/VowpalManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/utils/FileManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsScrapeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blumek/sb/Vowpal/VowpalManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blumek/sb/models/Review.java" />
+        <option value="$PROJECT_DIR$/Characteristics.txt" />
         <option value="$PROJECT_DIR$/src/main/java/blumek/sb/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoReviewsScraper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Scraper.java" />
       </list>
     </option>
   </component>
@@ -158,7 +177,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sb" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reviews-Scraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reviews-Scraper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sb" type="462c0819:PsiDirectoryNode" />
               <item name="scrapers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reviews-Scraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reviews-Scraper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sb" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,6 +211,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -221,18 +259,20 @@
       <workItem from="1561285398773" duration="5219000" />
       <workItem from="1561315628255" duration="5717000" />
       <workItem from="1561368066892" duration="11901000" />
-      <workItem from="1561380113159" duration="10157000" />
+      <workItem from="1561380113159" duration="11626000" />
+      <workItem from="1561404760083" duration="5557000" />
+      <workItem from="1561462385791" duration="264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32994000" />
+    <option name="totallyTimeSpent" value="40284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -241,7 +281,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,41 +326,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/WebScraper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/models/Review.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ScrapeManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Pagination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/PageScrapeManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsScraper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -334,49 +344,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/PageScraper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Scraper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="306" column="12" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Characteristics.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/Vowpal/VowpalManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -390,10 +361,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsScrapeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Characteristics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoPageScraper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/models/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/Vowpal/VowpalManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Pagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/PageScraper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoReviewsScraper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#663#664#0" expanded="true" />
@@ -404,45 +464,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/utils/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsScraper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/ReviewsScrapeManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/Scraper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/scrapers/CeneoPageScraper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blumek/sb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#593#601#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,7 +2,7 @@ package blumek.sb.models;
 
 public class Review {
     private String description;
-    private Double rating;
+    private double rating;
 
     public Review() {
     }
@@ -30,6 +30,9 @@ public class Review {
 
     @Override
     public String toString() {
-        return rating + " | " + description;
+        if (rating % 1 == 0)
+            return (int) rating + " | " + description;
+        else
+            return rating + " | " + description;
     }
 }
